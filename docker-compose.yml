@@ -15,3 +15,5 @@ services:
       dockerfile: conf/django/Dockerfile
     ports:
       - 8000:8000
+    env_file:
+      - .envs/.${ENVIRON}/.django

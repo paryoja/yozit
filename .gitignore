@@ -1,4 +1,5 @@
 .idea/
-django/db.sqlite3
+django_server/db.sqlite3
 venv/
 .env
+*.pyc
